@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplos de arrays</h1>
+    <p>Criando um array e adicionando novos itens no console.</p>
+    <script>
+        // Criando o array de pokemons
+        let listaPokemons = ['Pikachu', 'Charmander', 'Bulbasaur']
+
+        //Adicionar o pokemon no array com push
+        console.log('Exemplo de push')
+        listaPokemons.push('Squirtle')
+        listaPokemons.push('Cartepie', 'Ratata', 'Pidgeot')
+
+        //Exemplo de pop
+        console.log('Exemplo de pop')
+        console.log('Lista Inicial: ' + listaPokemons)
+        let removido = listaPokemons.pop()
+
+        console.log('Lista Atualizada: '+ listaPokemons)
+        console.log('Pokemon removido: ', removido)
+
+        //Exemplo de unshift
+        console.log('Exemplo de unshift')
+        listaPokemons.unshift('Mewtwo', 'Eevee', 'Jolteon')
+        console.log(listaPokemons)
+
+        //Exemplo de shift
+        console.log('Exemplo de shift')
+        let removido2 = listaPokemons.shift()
+        console.log('Lista Atualizada: '+ listaPokemons)
+        console.log('Pokemon removido: ', removido2)
+    </script>
+</body>
+</html>
